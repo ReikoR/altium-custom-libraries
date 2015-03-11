@@ -1,0 +1,399 @@
+<?xml version="1.0"?>
+<TComponentSet id="0" CurrentRevColumnWidth="100" NameColumnWidth="300" NextRevColumnWidth="100">
+  <LifeCycleDefinitionGUID>C49BAAE1-4B93-4C84-9FD7-CC93C2E8574D</LifeCycleDefinitionGUID>
+  <RevisionNamingSchemeGUID>1C7FB9EE-333C-4E69-AEDB-057152119FFC</RevisionNamingSchemeGUID>
+  <VaultGUID>B7D15EC3-160A-466F-A46C-7801FE6295A7</VaultGUID>
+  <VaultName>Altium Content Vault</VaultName>
+  <RequiredParameters>
+    <TRequiredParameter id="1" ColumnWidth="100">
+      <HRID>Code_JEDEC</HRID>
+      <Visible>true</Visible>
+    </TRequiredParameter>
+    <TRequiredParameter id="2" ColumnWidth="100">
+      <HRID>Comment</HRID>
+      <Visible>true</Visible>
+    </TRequiredParameter>
+    <TRequiredParameter id="3" ColumnWidth="100">
+      <HRID>ComponentLink1Description</HRID>
+      <Visible>true</Visible>
+    </TRequiredParameter>
+    <TRequiredParameter id="4" ColumnWidth="100">
+      <HRID>ComponentLink1URL</HRID>
+      <Visible>true</Visible>
+    </TRequiredParameter>
+    <TRequiredParameter id="5" ColumnWidth="100">
+      <HRID>ComponentLink2Description</HRID>
+      <Visible>true</Visible>
+    </TRequiredParameter>
+    <TRequiredParameter id="6" ColumnWidth="100">
+      <HRID>ComponentLink2URL</HRID>
+      <Visible>true</Visible>
+    </TRequiredParameter>
+    <TRequiredParameter id="7" ColumnWidth="100">
+      <HRID>ComponentLink3Description</HRID>
+      <Visible>true</Visible>
+    </TRequiredParameter>
+    <TRequiredParameter id="8" ColumnWidth="100">
+      <HRID>ComponentLink3URL</HRID>
+      <Visible>true</Visible>
+    </TRequiredParameter>
+    <TRequiredParameter id="9" ColumnWidth="100">
+      <HRID>ComponentLink4Description</HRID>
+      <Visible>true</Visible>
+    </TRequiredParameter>
+    <TRequiredParameter id="10" ColumnWidth="100">
+      <HRID>ComponentLink4URL</HRID>
+      <Visible>true</Visible>
+    </TRequiredParameter>
+    <TRequiredParameter id="11" ColumnWidth="100">
+      <HRID>Datarate(Mbps)</HRID>
+      <Visible>true</Visible>
+    </TRequiredParameter>
+    <TRequiredParameter id="12" ColumnWidth="100">
+      <HRID>DatasheetVersion</HRID>
+      <Visible>true</Visible>
+    </TRequiredParameter>
+    <TRequiredParameter id="13" ColumnWidth="100">
+      <HRID>Description</HRID>
+      <Visible>true</Visible>
+    </TRequiredParameter>
+    <TRequiredParameter id="14" ColumnWidth="100">
+      <HRID>Eco-Plan</HRID>
+      <Visible>true</Visible>
+    </TRequiredParameter>
+    <TRequiredParameter id="15" ColumnWidth="100">
+      <HRID>Input Noise Filter</HRID>
+      <Visible>true</Visible>
+    </TRequiredParameter>
+    <TRequiredParameter id="16" ColumnWidth="100">
+      <HRID>Insulation Rating(VRMS)</HRID>
+      <Visible>true</Visible>
+    </TRequiredParameter>
+    <TRequiredParameter id="17" ColumnWidth="100">
+      <HRID>Manufacturer</HRID>
+      <Visible>true</Visible>
+    </TRequiredParameter>
+    <TRequiredParameter id="18" ColumnWidth="100">
+      <HRID>MountType</HRID>
+      <Visible>true</Visible>
+    </TRequiredParameter>
+    <TRequiredParameter id="19" ColumnWidth="100">
+      <HRID>PackageDescription</HRID>
+      <Visible>true</Visible>
+    </TRequiredParameter>
+    <TRequiredParameter id="20" ColumnWidth="100">
+      <HRID>PackageReference</HRID>
+      <Visible>true</Visible>
+    </TRequiredParameter>
+    <TRequiredParameter id="21" ColumnWidth="100">
+      <HRID>PackageVersion</HRID>
+      <Visible>true</Visible>
+    </TRequiredParameter>
+    <TRequiredParameter id="22" ColumnWidth="100">
+      <HRID>PartNumber</HRID>
+      <Visible>true</Visible>
+    </TRequiredParameter>
+    <TRequiredParameter id="23" ColumnWidth="100">
+      <HRID>Prop Delay(Max)(ns)</HRID>
+      <Visible>true</Visible>
+    </TRequiredParameter>
+    <TRequiredParameter id="24" ColumnWidth="100">
+      <HRID>Rating</HRID>
+      <Visible>true</Visible>
+    </TRequiredParameter>
+    <TRequiredParameter id="25" ColumnWidth="100">
+      <HRID>SubFamily</HRID>
+      <Visible>true</Visible>
+    </TRequiredParameter>
+    <TRequiredParameter id="26" ColumnWidth="100">
+      <HRID>Supply Voltage(s)(V)</HRID>
+      <Visible>true</Visible>
+    </TRequiredParameter>
+    <TRequiredParameter id="27" ColumnWidth="100">
+      <HRID>Thermal Shutdown</HRID>
+      <Visible>true</Visible>
+    </TRequiredParameter>
+    <TRequiredParameter id="28" ColumnWidth="100">
+      <HRID>TTL/CMOS Input Threshold</HRID>
+      <Visible>true</Visible>
+    </TRequiredParameter>
+  </RequiredParameters>
+  <RequiredModels>
+    <TRequiredModel id="29" ColumnWidth="100">
+      <HRID>PCBLIB</HRID>
+      <Visible>true</Visible>
+      <ModelKind>PCBLIB</ModelKind>
+    </TRequiredModel>
+    <TRequiredModel id="30" ColumnWidth="100">
+      <HRID>PCBLIB 1</HRID>
+      <Visible>true</Visible>
+      <ModelKind>PCBLIB</ModelKind>
+    </TRequiredModel>
+    <TRequiredModel id="31" ColumnWidth="100">
+      <HRID>PCBLIB 2</HRID>
+      <Visible>true</Visible>
+      <ModelKind>PCBLIB</ModelKind>
+    </TRequiredModel>
+    <TRequiredModel id="32" ColumnWidth="100">
+      <HRID>SCHLIB</HRID>
+      <Visible>true</Visible>
+      <ModelKind>SCHLIB</ModelKind>
+    </TRequiredModel>
+  </RequiredModels>
+  <ModelLinks>
+    <TModelLink id="33">
+      <HRID>PCC-0151-01025-1</HRID>
+      <VaultGUID>B7D15EC3-160A-466F-A46C-7801FE6295A7</VaultGUID>
+      <ItemGUID>65421965-617B-43D8-AACE-CB027B4AC494</ItemGUID>
+      <ModelKind>PCBLIB</ModelKind>
+      <RevisionGUID>13ED7234-71E4-4B59-926F-E69B5963132F</RevisionGUID>
+      <RevisionId>1</RevisionId>
+    </TModelLink>
+    <TModelLink id="34">
+      <HRID>PCC-0151-01026-1</HRID>
+      <VaultGUID>B7D15EC3-160A-466F-A46C-7801FE6295A7</VaultGUID>
+      <ItemGUID>78FDCE8E-48F9-44EF-9ECA-CFB65D14DED8</ItemGUID>
+      <ModelKind>PCBLIB</ModelKind>
+      <RevisionGUID>F5A4C8EC-2873-44C8-9BB6-58E2774ABF52</RevisionGUID>
+      <RevisionId>1</RevisionId>
+    </TModelLink>
+    <TModelLink id="35">
+      <HRID>PCC-0151-01027-1</HRID>
+      <VaultGUID>B7D15EC3-160A-466F-A46C-7801FE6295A7</VaultGUID>
+      <ItemGUID>330AA664-A452-4560-BA88-C54FBE993DFF</ItemGUID>
+      <ModelKind>PCBLIB</ModelKind>
+      <RevisionGUID>84251CC2-F68E-4124-87DC-FD7AEAFBC6FE</RevisionGUID>
+      <RevisionId>1</RevisionId>
+    </TModelLink>
+    <TModelLink id="36">
+      <HRID>SYM-0119-01927-2</HRID>
+      <VaultGUID>B7D15EC3-160A-466F-A46C-7801FE6295A7</VaultGUID>
+      <ItemGUID>48607486-9DBD-495C-B139-465A0616642E</ItemGUID>
+      <ModelKind>SCHLIB</ModelKind>
+      <RevisionGUID>1C92418C-C1FA-491D-92DC-26F02883C3C1</RevisionGUID>
+      <RevisionId>2</RevisionId>
+    </TModelLink>
+  </ModelLinks>
+  <PartChoiceListLinks StateIndex="2">
+    <ComponentSet href="#0"/>
+    <ItemNamingScheme>PCL-{00000}</ItemNamingScheme>
+  </PartChoiceListLinks>
+  <TopGroup id="37" StateIndex="2" Collapsed="false">
+    <Parameters/>
+    <ModelChoices/>
+    <ComponentSet href="#0"/>
+    <ItemNamingScheme>CMP-0857-{00000}</ItemNamingScheme>
+    <Groups>
+      <TGroup id="38" StateIndex="2" Collapsed="false">
+        <HRID>Unified Components</HRID>
+        <ParentGroup href="#37"/>
+        <Parameters/>
+        <ModelChoices/>
+        <ComponentSet href="#0"/>
+        <Groups>
+          <TGroup id="39" StateIndex="2" Collapsed="false">
+            <HRID>Components</HRID>
+            <ParentGroup href="#38"/>
+            <Parameters/>
+            <ModelChoices/>
+            <ComponentSet href="#0"/>
+            <Groups>
+              <TGroup id="40" StateIndex="2" Collapsed="false">
+                <HRID>Texas Instruments</HRID>
+                <ParentGroup href="#39"/>
+                <Parameters/>
+                <ModelChoices/>
+                <ComponentSet href="#0"/>
+                <Groups>
+                  <TGroup id="41" StateIndex="2" Collapsed="false">
+                    <HRID>Interface</HRID>
+                    <ParentGroup href="#40"/>
+                    <Parameters/>
+                    <ModelChoices/>
+                    <ComponentSet href="#0"/>
+                    <Groups>
+                      <TGroup id="42" StateIndex="2" Collapsed="false">
+                        <HRID>Isolator</HRID>
+                        <GUID>4CF1CE86-2959-4C9E-800B-99FCF3B486F9</GUID>
+                        <ParentGroup href="#41"/>
+                        <Parameters/>
+                        <ModelChoices/>
+                        <ComponentSet href="#0"/>
+                        <Groups/>
+                        <ComponentDefinitions>
+                          <TComponentDefinition StateIndex="0">
+                            <HRID>CMP-0328-00005</HRID>
+                            <GUID>1D659170-46C9-4A63-94D2-DDE1CE5B0624</GUID>
+                            <ParentGroup href="#42"/>
+                            <Parameters>
+                              <TParameter>
+                                <RequiredParameter href="#2"/>
+                                <Value>ISO7231CDWG4</Value>
+                              </TParameter>
+                              <TParameter>
+                                <RequiredParameter href="#13"/>
+                                <Value>25 Mbps Triple Channels, 2 / 1, Digital Isolator, 3.3 V / 5 V, -40 to +125 degC, 16-pin SOIC (DW), Green (RoHS &amp; no Sb/Br)</Value>
+                              </TParameter>
+                              <TParameter>
+                                <RequiredParameter href="#10"/>
+                                <Value>http://www.ti.com/product/iso7231c#samples</Value>
+                              </TParameter>
+                              <TParameter>
+                                <RequiredParameter href="#27"/>
+                                <Value>No</Value>
+                              </TParameter>
+                              <TParameter>
+                                <RequiredParameter href="#9"/>
+                                <Value>SamplesURL</Value>
+                              </TParameter>
+                              <TParameter>
+                                <RequiredParameter href="#26"/>
+                                <Value>3.3, 5</Value>
+                              </TParameter>
+                              <TParameter>
+                                <RequiredParameter href="#18"/>
+                                <Value>SMT</Value>
+                              </TParameter>
+                              <TParameter>
+                                <RequiredParameter href="#7"/>
+                                <Value>Package Specification</Value>
+                              </TParameter>
+                              <TParameter>
+                                <RequiredParameter href="#15"/>
+                                <Value>Yes</Value>
+                              </TParameter>
+                              <TParameter>
+                                <RequiredParameter href="#5"/>
+                                <Value>Datasheet</Value>
+                              </TParameter>
+                              <TParameter>
+                                <RequiredParameter href="#20"/>
+                                <Value>DW0016A</Value>
+                              </TParameter>
+                              <TParameter>
+                                <RequiredParameter href="#21"/>
+                                <Value>4040000-2/G, 01/2011</Value>
+                              </TParameter>
+                              <TParameter>
+                                <RequiredParameter href="#8"/>
+                                <Value>http://www.ti.com/litv/pdf/msoi003g</Value>
+                              </TParameter>
+                              <TParameter>
+                                <RequiredParameter href="#24"/>
+                                <Value>Catalog</Value>
+                              </TParameter>
+                              <TParameter>
+                                <RequiredParameter href="#23"/>
+                                <Value>42</Value>
+                              </TParameter>
+                              <TParameter>
+                                <RequiredParameter href="#25"/>
+                                <Value>Isolator</Value>
+                              </TParameter>
+                              <TParameter>
+                                <RequiredParameter href="#4"/>
+                                <Value>http://www.ti.com/</Value>
+                              </TParameter>
+                              <TParameter>
+                                <RequiredParameter href="#1"/>
+                                <Value>MS-013</Value>
+                              </TParameter>
+                              <TParameter>
+                                <RequiredParameter href="#14"/>
+                                <Value>Green (RoHS &amp; no Sb/Br)</Value>
+                              </TParameter>
+                              <TParameter>
+                                <RequiredParameter href="#16"/>
+                                <Value>2500</Value>
+                              </TParameter>
+                              <TParameter>
+                                <RequiredParameter href="#22"/>
+                                <Value>ISO7231CDWG4</Value>
+                              </TParameter>
+                              <TParameter>
+                                <RequiredParameter href="#3"/>
+                                <Value>Manufacturer URL</Value>
+                              </TParameter>
+                              <TParameter>
+                                <RequiredParameter href="#6"/>
+                                <Value>http://www.ti.com/general/docs/lit/getliterature.tsp?genericPartNumber=ISO7231C&amp;fileType=pdf</Value>
+                              </TParameter>
+                              <TParameter>
+                                <RequiredParameter href="#19"/>
+                                <Value>16-Pin Plastic Small Outline, Body 10.30 x 7.50 mm, Pitch 1.27 mm</Value>
+                              </TParameter>
+                              <TParameter>
+                                <RequiredParameter href="#12"/>
+                                <Value>SLLS867I</Value>
+                              </TParameter>
+                              <TParameter>
+                                <RequiredParameter href="#28"/>
+                                <Value>TTL</Value>
+                              </TParameter>
+                              <TParameter>
+                                <RequiredParameter href="#17"/>
+                                <Value>Texas Instruments</Value>
+                              </TParameter>
+                              <TParameter>
+                                <RequiredParameter href="#11"/>
+                                <Value>25</Value>
+                              </TParameter>
+                            </Parameters>
+                            <ModelChoices>
+                              <TModelChoice>
+                                <RequiredModel href="#29"/>
+                                <ModelLink href="#35"/>
+                              </TModelChoice>
+                              <TModelChoice>
+                                <RequiredModel href="#30"/>
+                                <ModelLink href="#33"/>
+                              </TModelChoice>
+                              <TModelChoice>
+                                <RequiredModel href="#31"/>
+                                <ModelLink href="#34"/>
+                              </TModelChoice>
+                              <TModelChoice>
+                                <RequiredModel href="#32"/>
+                                <ModelLink href="#36"/>
+                              </TModelChoice>
+                            </ModelChoices>
+                            <ItemHRID>CMP-0328-00005</ItemHRID>
+                            <RevisionGUID>3374C42F-2701-4EAE-BECA-9BC8E976A994</RevisionGUID>
+                            <RevisionId>2</RevisionId>
+                          </TComponentDefinition>
+                        </ComponentDefinitions>
+                        <Path>Unified Components\Components\Texas Instruments\Interface\Isolator</Path>
+                        <IsDefaultGroup>true</IsDefaultGroup>
+                      </TGroup>
+                    </Groups>
+                    <ComponentDefinitions/>
+                    <Path>Unified Components\Components\Texas Instruments\Interface</Path>
+                    <IsDefaultGroup>false</IsDefaultGroup>
+                  </TGroup>
+                </Groups>
+                <ComponentDefinitions/>
+                <Path>Unified Components\Components\Texas Instruments</Path>
+                <IsDefaultGroup>false</IsDefaultGroup>
+              </TGroup>
+            </Groups>
+            <ComponentDefinitions/>
+            <Path>Unified Components\Components</Path>
+            <IsDefaultGroup>false</IsDefaultGroup>
+          </TGroup>
+        </Groups>
+        <ComponentDefinitions/>
+        <Path>Unified Components</Path>
+        <IsDefaultGroup>false</IsDefaultGroup>
+      </TGroup>
+    </Groups>
+    <ComponentDefinitions/>
+    <IsDefaultGroup>false</IsDefaultGroup>
+  </TopGroup>
+  <ShowReleaseState>false</ShowReleaseState>
+  <ItemNamingSchemeMappings>
+    <TItemNamingSchemeMapping>
+      <SimpleNamingScheme>CMP-{00000}</SimpleNamingScheme>
+      <InitialIndex>0</InitialIndex>
+    </TItemNamingSchemeMapping>
+  </ItemNamingSchemeMappings>
+</TComponentSet>
