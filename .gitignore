@@ -11,3 +11,5 @@ texas_instruments/History/
 *.ERR
 ftdi_chip/History/
 coilgun/History/
+switches/
+coilgun/__Previews/
