@@ -11,8 +11,8 @@ texas_instruments/History/
 *.ERR
 ftdi_chip/History/
 coilgun/History/
-switches/
 coilgun/__Previews/
 nxp/History/
 motor_drivers/History/
 atmel/History/
+switches/History/
